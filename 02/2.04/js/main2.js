@@ -1,0 +1,11 @@
+const svg = d3.select('#chart-area').append('svg')
+  .attr('width', 800)
+  .attr('height', 800)
+
+svg.append('rect')
+  .attr('x', 100)
+  .attr('y', 150)
+  .attr('width', 20)
+  .attr('height', 250)
+  .attr('fill', 'red')
+  .attr('stroke', 'black')
